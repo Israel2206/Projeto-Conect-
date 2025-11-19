@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Breno Israel e Johana Dafne">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastre sua empresa!</h1>
+        <p>Por favor, preencha os dados.</p>
+        <br>
+    </div>
+    <form action="https://formsubmit.co/conectamaisseabra@gmail.com" method="post">
+        <fieldset>
+            <div>
+                <label>Nome da empresa:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite aqui..." required>
+            </div>
+            
+            <div>
+                <label>Numero de telefone:</label>
+                <input type="tel" name="numero" id="numero" placeholder="(DD)xxxxx-xxxx" required>
+            </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" name= "email" id="email" placeholder="email@xxx.com" required>
+        </div>
+        
+        <div>
+            <label>Você já tem redes sociais da sua empresa?</label><br>
+            <label><input type="radio" name="redes_sociais" id="redes_sociais" value="sim">Sim</label>
+            <label><input type="radio" name="redes_sociais" id="redes_sociais" value="nao">Não</label>
+            <label><input type="radio" name="redes_sociais" id="redes_sociais" value="em_criacao">Estou criando ainda</label>
+        </div>
+
+        <div>
+            <label><b>Caso queira, envie fotos do seu trabalho!</b></label>
+            <br>
+            <input type="file" name="arquivo" id ="arquivo">
+            <br>
+            <br>
+        </div>
+        <div>
+            <label>deixe sua mensagem:</label>
+            <br>
+            <textarea name="mensagem" placeholder="Digite sua mensagem" rows="4" cols="25" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
