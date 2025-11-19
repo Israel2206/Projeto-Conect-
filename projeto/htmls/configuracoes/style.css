@@ -1,12 +1,112 @@
-h1 {
-    font-style: italic;
-    font-weight: 100;
+/* Remove margens e espaçamento padrão da página */
+body{
+    margin: 0;
+    padding: 0;
 }
+
+/* Cabeçalho da página: título e menu de navegação */
+header {
+    background-color: rgb(0, 0, 166);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* Título principal dentro do header */
+header h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+/* Efeito de leve animação no texto "Conecta+" */
 .efeito {
     display: inline-block;
     transition: transform 0.3s ease;
 }
 
-.efeito:hover{
+/* Aumenta um pouco o texto ao passar o mouse */
+.efeito:hover {
     transform: scale(1.09);
+}
+
+/* Estilo dos links do menu do header */
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.214);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Seção que mostra os benefícios da plataforma */
+#sobre{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* Título da seção de detalhes */
+#sobre h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Flexbox para colocar as duas caixas lado a lado */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Caixas que mostram benefícios para candidatos e empresas */
+.box{
+    background-color: rgba(5, 56, 82, 0.463);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 7px 1px black;
+}
+
+/* Botões dentro das caixas (ex: cadastrar) */
+.box a{
+    background-color: #e5e5e5;
+    border-radius: 6px;
+    margin: 5px 0px 5px;
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+    font-weight: bold;
+}
+
+/* Título de cada box (ex: "Para candidatos") */
+.box p{
+    font-size: 32px;
+}
+
+/* Remove as bolinhas da lista */
+ul{
+    list-style: none;
+}
+
+/* Itens da lista dentro das boxes */
+.box li{
+    font-size: 20px;
+}
+
+/* Rodapé da página */
+footer {
+    background-color: rgb(5, 5, 60);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
 }
