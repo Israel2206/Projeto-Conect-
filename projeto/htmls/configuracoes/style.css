@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 0, 166);
 }
 
 /* Cabeçalho da página: título e menu de navegação */
@@ -58,7 +59,7 @@ nav a {
     font-size: 30px;
 }
 
-/* Flexbox para colocar as duas caixas lado a lado */
+/* Container flexível para organizar os blocos em linha e quebrar em telas menores */
 .flex{
     display: flex;
     justify-content: space-around;
@@ -67,7 +68,7 @@ nav a {
     flex-wrap: wrap;
 }
 
-/* Caixas que mostram benefícios para candidatos e empresas */
+/* Caixa principal usada para benefícios (candidatos e empresas) */
 .box{
     background-color: rgba(5, 56, 82, 0.463);
     margin: 15px;
@@ -76,7 +77,7 @@ nav a {
     box-shadow: 2px 5px 7px 1px black;
 }
 
-/* Botões dentro das caixas (ex: cadastrar) */
+/* Estilo dos botões dentro das caixas */
 .box a{
     background-color: #e5e5e5;
     border-radius: 6px;
@@ -87,29 +88,50 @@ nav a {
     font-weight: bold;
 }
 
-/* Título de cada box (ex: "Para candidatos") */
+/* Estilo dos títulos dentro das caixas */
 .box p{
     font-size: 32px;
 }
 
-/* Remove as bolinhas da lista */
+/* Remove as bolinhas padrão das listas */
 ul{
     list-style: none;
 }
 
-/* Itens da lista dentro das boxes */
+/* Estilo dos itens da lista dentro das caixas */
 .box li{
     font-size: 20px;
 }
 
+/* Seção que apresenta exemplos de pessoas e empresas */
 #detalhes{
     background-color: blue;
     color: white;
+    padding: 20px;
 }
 
+/* Título da seção de detalhes */
 #detalhes h2{
     margin: 0;
     font-size: 30px;
+}
+
+/* Caixa usada para mostrar os perfis das pessoas */
+.box-pessoas{
+    background-color: rgba(5, 56, 82, 0.463);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 7px 1px black;
+}
+
+/* Caixa usada para mostrar as informações das empresas */
+.box-empresas{
+    background-color: rgba(5, 56, 82, 0.463);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 7px 1px black;
 }
 
 /* Rodapé da página */
@@ -120,4 +142,9 @@ footer {
     font-size: 18px;
     margin: 0;
     padding: 10px;
+}
+
+/* Remove a margem padrão do parágrafo dentro do rodapé */
+footer p{
+    margin: 0;
 }
