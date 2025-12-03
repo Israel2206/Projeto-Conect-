@@ -2,13 +2,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 166);
+    background-color: rgba(252, 249, 249, 0.663);
 }
-
+/*finalzin*/
 /* Cabeçalho da página: título e menu de navegação */
 header {
-    background-color: rgb(0, 0, 166);
-    color: white;
+    background-color: rgba(253, 248, 248, 0.316);
+    color: rgba(23, 1, 1, 0.884);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -31,15 +31,15 @@ header h1 {
 
 /* Aumenta um pouco o texto ao passar o mouse */
 .efeito:hover {
-    transform: scale(1.09);
+    transform: scale(1.1);
 }
 
 /* Estilo dos links do menu do header */
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.214);
+    color: rgb(251, 247, 247);
+    background-color: rgba(21, 10, 10, 0.878);
     padding: 8px 16px;
     border-radius: 6px;
     font-weight: 500;
@@ -47,10 +47,25 @@ nav a {
 
 /* Seção que mostra os benefícios da plataforma */
 #sobre{
-    background-color: blue;
+    background-color: rgb(131, 131, 234);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+
+    /* caminho da imagem */
+    background-image: url(../imgs/trabalhoo.png);
+
+    /* ajusta a imagem para ocupar toda a tela */
+    background-size: cover;
+
+    /* impede que a imagem se repita */
+    background-repeat: repeat;
+
+    /* mantém a imagem fixa ao rolar a página (opcional) */
+    background-attachment: fixed;
+
+    /* centraliza a imagem */
+    background-position: center;
 }
 
 /* Título da seção de detalhes */
@@ -63,14 +78,14 @@ nav a {
 .flex{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 200px;
     padding: 10px;
     flex-wrap: wrap;
 }
 
 /* Caixa principal usada para benefícios (candidatos e empresas) */
 .box{
-    background-color: rgba(5, 56, 82, 0.463);
+    background-color: rgba(16, 1, 1, 0.4);
     margin: 15px;
     padding: 20px;
     border-radius: 8px;
@@ -104,21 +119,36 @@ ul{
 }
 
 /* Seção que apresenta exemplos de pessoas e empresas */
-#detalhes{
-    background-color: blue;
-    color: white;
+.detalhes{
+    background-color: rgba(4, 4, 14, 0.91);
+    color: rgb(252, 250, 250);
     padding: 20px;
+
+        /* caminho da imagem */
+    background-image: url(../imgs/trabalhoo.png);
+
+    /* ajusta a imagem para ocupar toda a tela */
+    background-size: cover;
+
+    /* impede que a imagem se repita */
+    background-repeat: repeat;
+
+    /* mantém a imagem fixa ao rolar a página (opcional) */
+    background-attachment: fixed;
+
+    /* centraliza a imagem */
+    background-position: center;
 }
 
 /* Título da seção de detalhes */
-#detalhes h2{
+.detalhes h2{
     margin: 0;
     font-size: 30px;
 }
 
 /* Caixa usada para mostrar os perfis das pessoas */
 .box-pessoas{
-    background-color: rgba(5, 56, 82, 0.463);
+    background-color: rgba(1, 8, 12, 0.362);
     margin: 15px;
     padding: 20px;
     border-radius: 8px;
@@ -137,13 +167,12 @@ ul{
 
 /* Nome Autoexplicativo*/
 .botao-esquerda{
-    display: flex;
-    justify-content: flex-end;
+    text-align: right; /* ou center, se preferir */
 }
 
 /* Caixa usada para mostrar as informações das empresas */
 .box-empresas{
-    background-color: rgba(5, 56, 82, 0.463);
+    background-color: rgba(0, 8, 13, 0.687);
     margin: 15px;
     padding: 20px;
     border-radius: 8px;
@@ -163,13 +192,27 @@ ul{
 
 /* Rodapé da página */
 footer {
-    background-color: rgb(5, 5, 60);
+    background-color: rgb(244, 244, 247);
     color: white;
     text-align: center;
     font-size: 18px;
     margin: 0;
     padding: 10px;
 }
+.bababa{
+    color:rgba(252, 247, 246, 0.933);
+    background-color: rgba(0, 2, 4, 0.504);
+    border-radius: 8px;
+    box-shadow: 2px 5px 7px 1px black;
+    text-align:center;
+    
+}
+
+.detalhes h2{
+    font-size:20px;
+
+}
+
 
 /* Remove a margem padrão do parágrafo dentro do rodapé */
 footer p{
