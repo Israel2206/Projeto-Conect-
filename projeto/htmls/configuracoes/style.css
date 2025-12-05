@@ -3,28 +3,55 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgba(252, 249, 249, 0.663);
+    background-image: url(../imgs/empresarial.png);
+
+    /* ajusta a imagem para ocupar toda a tela */
+    background-size: cover;
+
+    /* impede que a imagem se repita */
+    background-repeat: repeat;
+
+    /* mantém a imagem fixa ao rolar a página (opcional) */
+    background-attachment: fixed;
+
+    /* centraliza a imagem */
+    background-position: center;
 }
 /*finalzin*/
 /* Cabeçalho da página: título e menu de navegação */
 header {
-    background-color: rgba(253, 248, 248, 0.316);
+    background-color: rgba(255, 12, 12, 0);
     color: rgba(23, 1, 1, 0.884);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
+    justify-content: space-around;
+    align-items:end;
     padding: 10px 20px;
+    height: 30px;
 }
+
+
 
 /* Título principal dentro do header */
 header h1 {
     font-size: 56px;
     margin: 0;
 }
+.conecta {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin:0px;
+    font-size: 50px;
+    height: 0px;
+    text-shadow: 5px 5px 7px black;
+
+}
 
 /* Efeito de leve animação no texto "Conecta+" */
 .efeito {
+   
     display: inline-block;
     transition: transform 0.3s ease;
 }
@@ -53,7 +80,7 @@ nav a {
     padding: 20px;
 
     /* caminho da imagem */
-    background-image: url(../imgs/trabalhoo.png);
+    background-image: url(../imgs/empresarial.png);
 
     /* ajusta a imagem para ocupar toda a tela */
     background-size: cover;
@@ -78,7 +105,7 @@ nav a {
 .flex{
     display: flex;
     justify-content: space-around;
-    margin: 200px;
+    margin: 75px;
     padding: 10px;
     flex-wrap: wrap;
 }
@@ -125,7 +152,7 @@ ul{
     padding: 20px;
 
         /* caminho da imagem */
-    background-image: url(../imgs/trabalhoo.png);
+    background-image: url(../imgs/empresarial.png);
 
     /* ajusta a imagem para ocupar toda a tela */
     background-size: cover;
@@ -199,7 +226,7 @@ footer {
     margin: 0;
     padding: 10px;
 }
-.bababa{
+.bababa{/*confira exemplos...*/
     color:rgba(252, 247, 246, 0.933);
     background-color: rgba(0, 2, 4, 0.504);
     border-radius: 8px;
@@ -217,4 +244,5 @@ footer {
 /* Remove a margem padrão do parágrafo dentro do rodapé */
 footer p{
     margin: 0;
+    color:black;
 }
