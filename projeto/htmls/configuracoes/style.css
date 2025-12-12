@@ -20,32 +20,31 @@ body{
 
 /* Cabeçalho da página: título e menu de navegação */
 header{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     color: white;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.3);
 }
 
 
 /* Título principal dentro do header */
 header h1 {
-    font-size: 56px;
+    font-size: 50px;
     margin: 0;
 }
 
 .conecta {
     margin: 0px;
     font-size: 50px;
-    text-shadow: 5px 5px 7px black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
     color: white;
-
 }
 
 /* Efeito de leve animação no texto "Conecta+" */
 .efeito {
-   
     display: inline-block;
     transition: transform 0.3s ease;
 }
@@ -64,6 +63,11 @@ nav a {
     padding: 8px 16px;
     border-radius: 6px;
     font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Seção que mostra os benefícios da plataforma */
