@@ -1,48 +1,73 @@
-.cabecalho{
-    color:rgb(255, 255, 255);
-    text-align: center;
+/* Fundo geral da página */
+body{
     margin: 0;
-    font-size: 20px;
-    text-shadow: 5px 5px 7px black;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url(../imgs/iU6oQ8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
+/* Cabeçalho */
+header{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.layout{
-    background-color: #00000083;
-    margin: 0px;
+header h1{
+    font-size: 26px;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 6px 12px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 6px;
+    color: white;
+}
+
+/* Títulos das seções */
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Layout dos conteiner */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Modelo das caixinhas */
+.box{
+    background-color: rgba(255,255,255,0.85);
+    margin: 15px;
     padding: 15px;
     border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.box p{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer{
+    background-color: rgba(0,0,0,0.7);
     text-align: center;
-    font-size: 22px;
-    box-shadow: 2px 5px 7px 1px black;
-    color:white;
-    
-}
-body{
-    background-color: #d0d7deea;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    background-image: url(../imgs/cadastro.avif);
-
-    /* ajusta a imagem para ocupar toda a tela */
-    background-size: cover;
-
-    /* impede que a imagem se repita */
-    background-repeat: repeat;
-
-    /* mantém a imagem fixa ao rolar a página (opcional) */
-    background-attachment: fixed;
-
-    /* centraliza a imagem */
-    background-position: center;
-    
-
-}
-.container{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
 }
