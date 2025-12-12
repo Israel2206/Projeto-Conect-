@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgba(252, 249, 249, 0.663);
-    background-image: url(../imgs/empresarial.png);
+    background-image: url(../imgs/fundoclaro2.webp);
 
     /* ajusta a imagem para ocupar toda a tela */
     background-size: cover;
@@ -11,7 +11,7 @@ body{
     /* impede que a imagem se repita */
     background-repeat: repeat;
 
-    /* mantém a imagem fixa ao rolar a página (opcional) */
+    /* mantém a imagem fixa ao rolar a página  */
     background-attachment: fixed;
 
     /* centraliza a imagem */
@@ -82,7 +82,7 @@ nav a {
     /* impede que a imagem se repita */
     background-repeat: repeat;
 
-    /* mantém a imagem fixa ao rolar a página (opcional) */
+    /* mantém a imagem fixa ao rolar a página */
     background-attachment: fixed;
 
     /* centraliza a imagem */
@@ -156,7 +156,7 @@ ul{
     /* impede que a imagem se repita */
     background-repeat: repeat;
 
-    /* mantém a imagem fixa ao rolar a página (opcional) */
+    /* mantém a imagem fixa ao rolar a página */
     background-attachment: fixed;
 
     /* centraliza a imagem */
@@ -244,7 +244,6 @@ footer {
     font-size:20px;
 
 }
-
 
 /* Remove a margem padrão do parágrafo dentro do rodapé */
 footer p{
