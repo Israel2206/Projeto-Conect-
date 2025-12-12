@@ -17,7 +17,7 @@ body{
     /* centraliza a imagem */
     background-position: center;
 }
-/*finalzin*/
+
 /* Cabeçalho da página: título e menu de navegação */
 header{
     background-color: rgba(0,0,0,0.6);
@@ -112,6 +112,8 @@ nav a {
     border-radius: 8px;
     box-shadow: 2px 5px 7px 1px black;
     transition: 0.3s;
+    text-align: center;
+
 }
 
 /* Estilo dos botões dentro das caixas */
