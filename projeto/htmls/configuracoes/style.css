@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgba(252, 249, 249, 0.663);
-    background-image: url(../imgs/fundoclaro2.webp);
+    background-image: url(../imgs/empresarial.png);
 
     /* ajusta a imagem para ocupar toda a tela */
     background-size: cover;
