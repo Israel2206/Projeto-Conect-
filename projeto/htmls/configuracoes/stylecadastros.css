@@ -1,85 +1,48 @@
-/* Remove margens e espaçamento padrão da página */
-body{
-    margin: 0;
-    padding: 0;
-}
-
-/* Cabeçalho da página: título e menu de navegação */
-header {
-    background-color: rgb(0, 0, 166);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 10px 20px;
-}
-
-/* Título principal dentro do header */
-header h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-/* Estilo dos links do menu do header */
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.214);
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-weight: 500;
-}
-
-/* Estilo no Main */
-main{
-    background-color: rgb(127, 214, 255);
-}
-
-/* Container flexível para organizar os blocos em linha e quebrar em telas menores */
-.flex{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 10px;
-    flex-wrap: wrap;
-}
-
-/* Caixa principal usada para benefícios (candidatos e empresas) */
-.box{
-    background-color: rgba(5, 56, 82, 0.463);
-    margin: 15px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 5px 7px 1px black;
-}
-
-
-
-/* Tirando a margem*/
-#pessoas h2{
-    margin: 0;
-    padding-top: 20px;
-}
-#empresas{
-    padding-bottom: 20px;
-}
-
-
-
-/* Rodapé da página */
-footer {
-    background-color: rgb(5, 5, 60);
-    color: white;
+.cabecalho{
+    color:rgb(255, 255, 255);
     text-align: center;
-    font-size: 18px;
     margin: 0;
-    padding: 10px;
+    font-size: 20px;
+    text-shadow: 5px 5px 7px black;
 }
 
-/* Remove a margem padrão do parágrafo dentro do rodapé */
-footer p{
-    margin: 0;
+
+.layout{
+    background-color: #00000083;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 2px 5px 7px 1px black;
+    color:white;
+    
+}
+body{
+    background-color: #d0d7deea;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-image: url(../imgs/cadastro.avif);
+
+    /* ajusta a imagem para ocupar toda a tela */
+    background-size: cover;
+
+    /* impede que a imagem se repita */
+    background-repeat: repeat;
+
+    /* mantém a imagem fixa ao rolar a página (opcional) */
+    background-attachment: fixed;
+
+    /* centraliza a imagem */
+    background-position: center;
+    
+
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
 }
