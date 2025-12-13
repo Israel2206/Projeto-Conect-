@@ -198,7 +198,10 @@ nav a:hover {
     border-radius: 6px;
     font-weight: bold;
     margin-top: 10px;
+    width: 200px;
+    font-size: 22px;
 }
+
 
 .botao-veja-mais:hover {
     background-color: var(--cor-primaria);
